@@ -43,3 +43,5 @@ Thumbs.db
 
 # lint caches
 .eslintcache
+
+.stylelintcache
