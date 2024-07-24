@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:repro-spec": "node dist/repro-spec/server/server.mjs",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "prepare": "husky"
   },
   "private": true,
   "dependencies": {
@@ -38,6 +39,7 @@
     "angular-eslint": "18.1.0",
     "eslint": "^9.6.0",
     "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.1.1",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
